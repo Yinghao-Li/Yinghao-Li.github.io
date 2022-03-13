@@ -1,0 +1,4 @@
+{% assign hint_info = "<div class=hint__info markdown=1>" %} 
+{% assign hint_warning = "<div class=hint__warning markdown=1>" %} 
+{% assign hint_danger = "<div class=hint__danger markdown=1>" %} 
+{% assign _hint = "</div>" %}

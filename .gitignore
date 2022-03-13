@@ -1,0 +1,9 @@
+.DS_Store
+_site/
+
+Cache/
+.jekyll-cache/
+.idea/
+.ipynb_checkpoints/
+*.ipynb
+__pycache__/
