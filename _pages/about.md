@@ -12,7 +12,7 @@ redirect_from:
 
 I'm a Ph.D. student majored in Machine Learning @ Georgia Institute of Technology.
 I'm advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Dr. Le Song](https://www.linkedin.com/in/le-song-03223813/) on weakly supervised information extraction methods for natural language processing.
-I'm also working with [Dr. Rampi Ramprasad](http://ramprasad.mse.gatech.edu/) on information extraction from Material Science articles.
+I'm also working on information extraction from Material Science articles.
 
 Education
 ---
