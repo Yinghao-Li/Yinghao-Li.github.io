@@ -4,7 +4,6 @@ date: 2022-03-22
 permalink: /gallery/2022/03/charleston-savanna/
 tags:
   - City
-  - Nature
   - Landscape
 ---
 
