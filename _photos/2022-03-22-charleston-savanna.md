@@ -2,9 +2,9 @@
 title: 'Charleston & Savanna'
 date: 2022-03-22
 permalink: /gallery/2022/03/charleston-savanna/
-excerpt: ![]({{base_path}}/images/22-03-22/DSCF5551.jpg)
 tags:
   - City
+  - Nature
   - Landscape
 ---
 
