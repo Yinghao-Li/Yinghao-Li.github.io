@@ -1,7 +1,7 @@
 ---
-title: 'Charleston & Savanna'
+title: 'Charleston & Savannah'
 date: 2022-03-22
-permalink: /gallery/2022/03/charleston-savanna/
+permalink: /gallery/2022/03/charleston-savannah/
 tags:
   - City
   - Landscape
