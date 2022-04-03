@@ -36,6 +36,8 @@ Bachelor of Science @ Southeast University (Nanjing), *School of Instrument Scie
 News and Thoughts
 ---
 
+### April, 2022
+- **[03]** Glad to join Amazon as an intern this summer. Will be in Seattle from May to August!
 
 ### February, 2022
 - **[17]** Happy very late Chinese New Year!
