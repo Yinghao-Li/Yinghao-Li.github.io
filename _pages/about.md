@@ -37,6 +37,7 @@ News and Thoughts
 ---
 
 ### April, 2022
+- **[26]** Going to Seattle this Friday.
 - **[03]** Glad to join Amazon as an intern this summer. Will be in Seattle from May to August!
 
 ### February, 2022
