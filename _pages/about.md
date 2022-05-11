@@ -36,6 +36,9 @@ Bachelor of Science @ Southeast University (Nanjing), *School of Instrument Scie
 News and Thoughts
 ---
 
+### May, 2022
+- **[11]** Check out the [Chemistry Article Parsing Portal](http://sciannotate.cc.gatech.edu/) website I just developed and its [tutorial]({{base_path}}/posts/2022/05/chem-parser).
+
 ### April, 2022
 - **[26]** Going to Seattle this Friday.
 - **[03]** Glad to join Amazon as an intern this summer. Will be in Seattle from May to August!
