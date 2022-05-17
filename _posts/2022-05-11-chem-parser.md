@@ -1,6 +1,6 @@
 ---
 title: 'Web-Based Chemistry Article Parser for Easy Document Annotation'
-date: 2022-02-22
+date: 2022-05-11
 permalink: /posts/2022/05/chem-parser/
 toc: true
 tags:
