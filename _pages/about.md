@@ -37,6 +37,8 @@ News and Thoughts
 ---
 
 ### May, 2022
+- **[22]** Paper "Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition" is accepted to the *KDD 2022* conference. A preview is available [here]({{base_path}}/files/KDD.2022.sparse.chmm.preview.pdf).
+- **[21]** Check out my trip to [UW]({{base_path}}/gallery/2022/05/uw)!
 - **[14]** Check out the python package [SeqLbToolkit](https://pypi.org/project/SeqLbToolkit/) I just released! Although it's for my own usage mainly...
 - **[11]** Check out the [Chemistry Article Parsing Portal](http://sciannotate.cc.gatech.edu/) website I just developed and its [tutorial]({{base_path}}/posts/2022/05/chem-parser).
 - **[08]** Check out the new photos I just uploaded to my [gallery]({{base_path}}/gallery/2022/05/seattle-city).
