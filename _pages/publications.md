@@ -10,7 +10,6 @@ author_profile: true
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<p> Also available at <a href="{{ author.googlescholar }}"><i class="ai-fw ai ai-google-scholar"></i>Google Scholar</a> and <a href="{{ author.semanticscholar }}"><i class="fas fa-fw fa-graduation-cap"></i>Semantic Scholar</a>.</p>
 
 2022
 ---

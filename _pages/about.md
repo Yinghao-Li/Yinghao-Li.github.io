@@ -37,6 +37,7 @@ News and Thoughts
 ---
 
 ### May, 2022
+- **[29]** Check out my new released python package [ChemPaperParser](https://pypi.org/project/ChemistryPaperParser/) for parsing HTML/XML Chemistry Papers!
 - **[22]** Paper "Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition" is accepted to the *KDD 2022* conference. A preview is available [here]({{base_path}}/files/KDD.2022.sparse.chmm.preview.pdf).
 - **[21]** Check out my trip to [UW]({{base_path}}/gallery/2022/05/uw)!
 - **[14]** Check out the python package [SeqLbToolkit](https://pypi.org/project/SeqLbToolkit/) I just released! Although it's for my own usage mainly...
