@@ -66,7 +66,7 @@ You can find more information on the web page.
 
 If the upload is successful, a success page as above will show.
 The page lists the DOIs of the articles that are uploaded.
-At the right of each DOI, you can find a "Preview and HTML" button.
+At the right of each DOI, you can find a "Preview as HTML" button.
 You can preview the parsed articles as HTML pages to check if the parsing result is correct.
 You can also download the HTML files for future use.
 
