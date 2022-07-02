@@ -36,6 +36,9 @@ Bachelor of Science @ Southeast University (Nanjing), *School of Instrument Scie
 News and Thoughts
 ---
 
+### July, 2022
+- **[02]** Checkout my trip to [Olympic National Park]({{base_path}}/gallery/2022/06/olympic/)!
+
 ### May, 2022
 - **[29]** Check out my new released python package [ChemPaperParser](https://pypi.org/project/ChemistryPaperParser/) for parsing HTML/XML Chemistry Papers!
 - **[22]** Paper "Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition" is accepted to the *KDD 2022* conference. A preview is available [here]({{base_path}}/files/KDD.2022.sparse.chmm.preview.pdf).
