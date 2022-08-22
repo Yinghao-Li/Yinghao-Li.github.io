@@ -15,7 +15,7 @@ author_profile: true
 ---
 ### Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition
 **Yinghao Li**, Le Song, Chao Zhang  
-In *Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, Association for Computing Machinery, Washington D.C., USA, 2022.  
+In *Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, Association for Computing Machinery, Washington DC, USA, 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2205.14228.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2205.14228){: .btn--research}
 [<i class="ai-fw ai ai-acm"></i>ACM](https://dl.acm.org/doi/10.1145/3534678.3539247){: .btn--research}
