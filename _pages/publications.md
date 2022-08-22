@@ -18,7 +18,9 @@ author_profile: true
 In *Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, Association for Computing Machinery, Washington D.C., USA, 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2205.14228.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2205.14228){: .btn--research}
+[<i class="ai-fw ai ai-acm"></i>ACM](https://dl.acm.org/doi/10.1145/3534678.3539247){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/Sparse-CHMM){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2022-sparse-chmm.bib){: .btn--research}
 
 
 2021

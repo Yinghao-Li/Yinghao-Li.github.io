@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3534678.3539247,
+author = {Li, Yinghao and Song, Le and Zhang, Chao},
+title = {Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3534678.3539247},
+doi = {10.1145/3534678.3539247},
+abstract = {Weakly supervised named entity recognition methods train label models to aggregate the token annotations of multiple noisy labeling functions (LFs) without seeing any manually annotated labels. To work well, the label model needs to contextually identify and emphasize well-performed LFs while down-weighting the under-performers. However, evaluating the LFs is challenging due to the lack of ground truths. To address this issue, we propose the sparse conditional hidden Markov model (Sparse-CHMM). Instead of predicting the entire emission matrix as other HMM-based methods, Sparse-CHMM focuses on estimating its diagonal elements, which are considered as the reliability scores of the LFs. The sparse scores are then expanded to the full-fledged emission matrix with pre-defined expansion functions. We also augment the emission with weighted XOR scores, which track the probabilities of an LF observing incorrect entities. Sparse-CHMM is optimized through unsupervised learning with a three-stage training pipeline that reduces the training difficulty and prevents the model from falling into local optima. Compared with the baselines in the Wrench benchmark, Sparse-CHMM achieves a 3.01 average F1 score improvement on five comprehensive datasets. Experiments show that each component of Sparse-CHMM is effective, and the estimated LF reliabilities strongly correlate with true LF F1 scores.},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {978-988},
+numpages = {11},
+keywords = {weak supervision, named entity recognition, information extraction, hidden markov model},
+location = {Washington DC, USA},
+series = {KDD '22}
+}
