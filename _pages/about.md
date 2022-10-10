@@ -19,18 +19,29 @@ Education
 
 ### [Aug. 2020 -- present]
 
-Ph.D. student @ Georgia Institute of Technology, *Machine Learning, School of Electrical and Computer Engineering*
+Ph.D. student @ Georgia Institute of Technology  
+*Machine Learning, School of Electrical and Computer Engineering*
 - Advised by Dr. Chao Zhang and Dr. Le Song
 
 ### [Aug. 2018 -- May 2020]
 
-Master of Science @ Georgia Institute of Technology, *School of Electrical and Computer Engineering*
+Master of Science @ Georgia Institute of Technology  
+*School of Electrical and Computer Engineering*
 - Advised by Dr. Chao Zhang
 
 ### [Aug. 2014 -- June 2018]
 
-Bachelor of Science @ Southeast University (Nanjing), *School of Instrument Science and Engineering*
+Bachelor of Science @ Southeast University, Nanjing  
+*School of Instrument Science and Engineering*
 - Advised by [Dr. Lifeng Zhu](https://ins.seu.edu.cn/yk_english/2020/0219/c27542a317780/page.htm) on 3D face reconstruction
+
+Experience
+---
+
+### [May 2022 -- present]
+Applied scientist intern @ Amazon, Seattle  
+*Product Graph*
+- Mentor: [Colin Lockard](https://www.colinlockard.com/); Manager: [Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/)
 
 
 News and Thoughts
