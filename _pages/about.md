@@ -41,7 +41,7 @@ Experience
 ### [May 2022 -- present]
 Applied scientist intern @ Amazon, Seattle  
 *Product Graph*
-- Mentor: [Colin Lockard](https://www.colinlockard.com/); Manager: [Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/)
+- Mentor: [Dr. Colin Lockard](https://www.colinlockard.com/); Manager: [Dr. Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/)
 
 
 News and Thoughts
