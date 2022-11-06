@@ -15,7 +15,7 @@ author_profile: true
 ---
 ### ReSel: N-ary Relation Extraction from Scientific Text and Tables by Learning to Retrieve and Select
 Yuchen Zhuang, **Yinghao Li**, Jerry Junyang Cheung, Yue Yu, Yingjun Mou, Xiang Chen, Le Song, Chao Zhang  
-In *The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 2022.  
+In *Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2210.14427.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2210.14427){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/night-chen/ReSel){: .btn--research}
