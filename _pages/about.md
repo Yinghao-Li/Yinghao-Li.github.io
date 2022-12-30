@@ -47,6 +47,9 @@ Applied scientist intern @ Amazon, Seattle
 News and Thoughts
 ---
 
+### December, 2022
+- **[29]** Checkout my photos of [this fall]({{base_path}}/gallery/2022/11/autumn)!
+
 ### July, 2022
 - **[02]** Checkout my trip to [Olympic National Park]({{base_path}}/gallery/2022/06/olympic/)!
 

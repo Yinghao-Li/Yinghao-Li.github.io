@@ -1,11 +1,9 @@
-from lib2to3.pgen2.token import OP
-from optparse import Option
 import os
 import sys
 import glob
 import pyperclip as pc
 
-from typing import Optional, Any
+from typing import Optional
 from dataclasses import dataclass, field
 from transformers import HfArgumentParser
 
@@ -28,7 +26,7 @@ def ref_images(args: Args):
     path_list.sort()
     temp_path = path_list[0]
     img_folder_idx = temp_path.split(os.sep).index("images")
-    
+
     path_str_list = list()
     for path in path_list:
         path_str = "/".join(["{{base_path}}"] + path.split(os.sep)[img_folder_idx:])
