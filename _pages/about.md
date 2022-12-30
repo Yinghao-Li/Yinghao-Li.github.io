@@ -86,8 +86,3 @@ News and Thoughts
 - **[16]** Start building my personal webpage!
 
 
-<!-- {{ hint_info }}
-some reference <a href="https://docs.docker.com/desktop/mac/install/">docker</a> dsfh sdkjfhdkj klsdjhf ldsf dksjhf ldskjhf ldskhjf lsdkjhf ldskjfh lsdkjfh dslkjfh dlskjfh lsdkjfh sldkjfh lsdkjfhlsdkjh sdlkjfh dskjfh sdlkj
-{{ _hint }} -->
-
-
