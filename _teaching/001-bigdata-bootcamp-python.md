@@ -134,7 +134,7 @@ print(x, type(x))
 ```
 
 {{ hint_info }}
-Notice that `input` is rarely used.
+`Input` is rarely used unless you are developing CLI programs.
 A more practical input method is [argparse](https://docs.python.org/3/library/argparse.html).
 {{ _hint }}
 
@@ -201,7 +201,7 @@ else:
 **Note:** in Python, the indent is used to define a scope instead of curly brackets `{}`.
 Usually, people use 4 whitespaces or one tab character `\t` as one layer of indent.
 Be sure to make it consistent throughout the file.
-{{ hint }}
+{{ _hint }}
 
 - `for` loop:
 
