@@ -52,14 +52,14 @@ Notice: To use `conda` command in other shells/prompts, you need to add the cond
 6. To make the changes take effect, close and then re-open your terminal window or use the command `source ~/.bashrc`.
 7. If you are using *zsh* or other shells, make sure conda is initiated. To do this, switch back to bash and type the command `conda init <shell name>`.
 
-> Please refer to [this page](https://docs.anaconda.com/anaconda/install/linux/)) for more information about Anaconda installation on Linux.
+> Please refer to [this page](https://docs.anaconda.com/anaconda/install/linux/) for more information about Anaconda installation on Linux.
 
 ### 1.3. Verify your installation
 
 You can use the command `conda list` to check your conda installation.
 If the terminal returns a bunch of python packages, then your installation is successful.
 
-> Please refer to [this page](https://docs.anaconda.com/anaconda/install/verify-install/)) for more information.
+> Please refer to [this page](https://docs.anaconda.com/anaconda/install/verify-install/) for more information.
 
 ### 1.4. Conda environment
 
