@@ -50,8 +50,30 @@ If you have not installed Zeppelin, you can install it with
 /scripts/install-zeppelin.sh
 ```
 
-Then, you can start Zeppelin service with
+{{ hint_warning }}
+You may encounter this error while installing zeppelin:
+```bash
+ERROR: cannot verify sunlab.org's certificate, issued by ‘/C=US/O=Let's Encrypt/CN=R3’:
+  Issued certificate has expired.
+To connect to sunlab.org insecurely, use `--no-check-certificate'.
+```
 
+To resolve this issue, you may need to modify the `install-zeppelin.sh` script using
+```bash
+vi ./scripts/install-zeppelin.sh
+```
+This will enter the `vi` editor in the terminal.
+In the editor, navigate to line 25 starting with `wget ...`, hit `i` to switch to the insert mode, and add argument `--no-check-certificate` at the end.
+The updated line will look like
+```bash
+wget http://sunlab.org/teaching/download/zeppelin-0.7.3-bin-netinst.tgz --no-check-certificate
+```
+Once you have finished doing so, hit `Esc` to exit the insert mode, type `:wq` and hit `Enter` to exit `vi` editor.
+
+You will be able to install `zeppelin` with `./scripts/install-zeppelin.sh` now.
+{{ _hint }}
+
+Then, you can start Zeppelin service with
 ```bash
 /scripts/start-zeppelin.sh
 ```
