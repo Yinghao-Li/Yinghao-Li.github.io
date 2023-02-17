@@ -82,7 +82,7 @@ Then, you can start Zeppelin service with
 Make sure you have already started other necessary services with `./scripts/start-services.sh` before installing Zeppelin.
 {{ _hint }}
 
-In addition, we need to create a HDFS folder for the user `zeppelin` as:
+In addition, we need to create an HDFS folder for the user `zeppelin` as:
 
 ```bash
 sudo su - hdfs  # switch to user 'hdfs'
