@@ -4,6 +4,7 @@ _site/
 Cache/
 .jekyll-cache/
 .idea/
+.vscode/
 .ipynb_checkpoints/
 *.ipynb
 __pycache__/

@@ -31,7 +31,7 @@ Please refer to [this page](https://conda.io/projects/conda/en/latest/user-guide
 
 ### 1.1. Windows and macOS
 
-1. Download the latest Miniconda installer (with Python 3.9) from the [official website](https://docs.conda.io/en/latest/miniconda.html#windows-installers).
+1. Download the latest Miniconda installer from the [official website](https://docs.conda.io/en/latest/miniconda.html#windows-installers).
 2. Install the package according to the instructions.
 3. Start to use *conda* environment with *Anaconda Prompt* or other shells if you enabled this feature during installation.
 
@@ -39,72 +39,60 @@ Please refer to [this page](https://conda.io/projects/conda/en/latest/user-guide
 Notice: To use `conda` command in other shells/prompts, you need to add the conda directory to your `PATH` environment variable.
 {{ _hint }}
 
-> Reference: [[1](https://docs.anaconda.com/anaconda/install/windows/), [2](https://docs.anaconda.com/anaconda/install/mac-os/)].
+> Please refer to [this page](https://docs.anaconda.com/anaconda/install/windows/) for more information about Anaconda installation on Windows and [this page](https://docs.anaconda.com/anaconda/install/mac-os/) on MacOS.
 
 ### 1.2. Linux with terminal 
 
 1. Start the terminal.
 2. Switch to `~/Download/` with command `cd ~/Download/`. If the path does not exist, create one using `mkdir ~/Download/`.
 3. Download the latest Linux Miniconda distribution using `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`.
-4. Once download is complete, install Miniconda using `bash Miniconda3-latest-Linux-x86_64.sh`.
+4. Once the download is complete, install Miniconda using `bash Miniconda3-latest-Linux-x86_64.sh`.
 5. Follow the prompts on the installer screens.
    If you are unsure about any setting, accept the defaults. You can change them later.
 6. To make the changes take effect, close and then re-open your terminal window or use the command `source ~/.bashrc`.
 7. If you are using *zsh* or other shells, make sure conda is initiated. To do this, switch back to bash and type the command `conda init <shell name>`.
 
-> Reference: [[1](https://docs.anaconda.com/anaconda/install/linux/)].
+> Please refer to [this page](https://docs.anaconda.com/anaconda/install/linux/)) for more information about Anaconda installation on Linux.
 
 ### 1.3. Verify your installation
 
 You can use the command `conda list` to check your conda installation.
 If the terminal returns a bunch of python packages, then your installation is successful.
 
-> Reference: [[1](https://docs.anaconda.com/anaconda/install/verify-install/)].
+> Please refer to [this page](https://docs.anaconda.com/anaconda/install/verify-install/)) for more information.
 
 ### 1.4. Conda environment
 
-With conda, you can create, remove, and update environments, each with an independent version of Python interpreter and Python packages.
-Switching or moving between environments is called activating the environment.
-
-This part is not necessary as you can directly *base* environment, which is the default conda environment.
-For those who want to know more, please refer to [conda: managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for details and instructions.
+With conda, you can easily create, remove, and update environments, each with an independent version of Python interpreter and Python packages.
+This is always desirable when you work on different Python projects with different (often conflicting) package dependencies.
+In this tutorial, we will use the default *base* environment.
+For more information on environment management, please refer to [conda: managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## 2. Package Installation
 
 If you are using Anaconda or Miniconda, you can use the Anaconda package manager `conda`.
-You can also use other managers such as `pip` when the packages are not provided by any conda sources.
-However, in this tutorial, we'll only cover how to install packages with `conda` instructions.
+You can also use other managers such as `pip` when the packages are not provided by any conda channels.
 
 To look for a specific package, you can visit [this website](https://anaconda.org/) and type the name of that package in the search box.
 For today's instruction, we need to install `numpy`, `matplotlib`,  `scikit-learn` and `pandas`. 
 
-First, switch to your conda environment using `conda activate <env name>` (not necessary if you are using the default *base* environment), then install those packages by executing these instructions:
-
+First, switch to your conda environment using `conda activate <env name>` (not necessary if you are using the default *base* environment), then install those packages using the following commands:
 ```bash
-conda install -c conda-forge numpy
-conda install -c conda-forge matplotlib
-conda install -c conda-forge scikit-learn
-conda install -c conda-forge pandas
+conda install -c conda-forge numpy matplotlib scikit-learn pandas
 ```
+The package manager will automatically install the dependencies.
+If you install `scikit-learn` first, which depends on `numpy`, you don't have to install `numpy` manually and the conda package solver will do it for you.
 
-The package manager will automatically install all dependencies.
-So if you choose to install scikit-learn first, then you don't have to install numpy manually as scikit-learn depends on numpy.
-
-If you prefer a fancier and more powerful python shell, you can choose to install `ipython` and even `jupyter notebook`, which allows you to run your commands in your browser.
-
+If you prefer a fancier and more powerful python shell, you can choose to install `ipython` and `jupyter notebook`.
 ```bash
 conda install -c conda-forge ipython
 conda install jupyter
 ```
+[Jupyter notebook](https://jupyter.org/try) allows you to run your commands using the browser as an interface instead of the terminal.
 
 ## 3. Basic Python Concepts
 
-{{ hint_info }}
-A more comprehensive tutorial can be found at the [Stanford CS231n website](http://cs231n.github.io/python-numpy-tutorial/#python-basic).
-In this and the following sections, we'll introduce the basic concepts due to time limitations.
-{{ _hint }}
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J2rCfbQm5heCt5LN1t8RZHA1O9VaT8b-?usp=sharing)
+> A more comprehensive tutorial can be found on the [Stanford CS231n website](http://cs231n.github.io/python-numpy-tutorial/#python-basic).
 
 We use **Python 3.9** in this tutorial.
 
@@ -116,10 +104,14 @@ Please refer to the [official document](https://docs.python.org/dev/whatsnew/ind
 First, in your terminal, type `python` or `ipython` or `jupyter notebook` to start an interactive python shell.
 `ipython` or `jupyter notebook` is recommended.
 
+{{ hint_info }}
+The tutorial is also on Google Colab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J2rCfbQm5heCt5LN1t8RZHA1O9VaT8b-?usp=sharing)
+{{ _hint }}
+
 ### 3.1. Variable definition, input and output (print)
 
-There's no type constraint for a variable, i.e., a variable can be of any type.
-
+We do not need to specify the variable type while defining a variable.
+The interpreter will automatically infer the data type from the assigned value.
 ```python
 a = 123
 b = '123'
@@ -127,8 +119,7 @@ c = "1234"
 print(a, b, c, type(a), type(b), type(c))
 ```
 
-A variable can be overwritten by different types
-
+A variable can be overwritten by a different type:
 ```python
 a = 123.456
 print(type(a))
@@ -136,15 +127,14 @@ a = '123'
 print(type(a))
 ```
 
-Input some strings interactively:
-
+The `input` method allows you to interactively input information into the program through CLI:
 ```python
 x = input('Input something: ')
 print(x, type(x))
 ```
 
 {{ hint_info }}
-Notice that this input method is rarely used in big data scenarios.
+Notice that `input` is rarely used.
 A more practical input method is [argparse](https://docs.python.org/3/library/argparse.html).
 {{ _hint }}
 
@@ -152,16 +142,16 @@ A more practical input method is [argparse](https://docs.python.org/3/library/ar
 
 - **List** is a collection that is *ordered* and *changeable*.
 It allows duplicate members.
-- **Tuple** is a collection which is *ordered* but *not changeable*.
+- **Tuple** is a collection that is _ordered_ but *not changeable*.
 It also allows duplicate members.
-- **Set** is a collection which is *unordered* and *unindexed*.
+- **Set** is a collection that is _unordered_ and *unindexed*.
 It does not allow duplicate members.
 Elements in a set cannot be retrieved by index.
-- **Dictionary** is a collection which is *ordered*, *changeable* and *indexed*.
+- **Dictionary** is a collection that is _ordered_, *changeable* and *indexed*.
 It does not allow duplicate members.  
 
 {{ hint_warning }}
-Notice that Dictionary used to be unordered before Python 3.7. 
+Notice that Dictionary used to be unordered before *Python 3.7*.
 {{ _hint }}
 
 ```python
@@ -207,7 +197,13 @@ else:
 
 ### 3.4. Loops
 
-`for` loop:
+{{ hint_info }}
+**Note:** in Python, the indent is used to define a scope instead of curly brackets `{}`.
+Usually, people use 4 whitespaces or one tab character `\t` as one layer of indent.
+Be sure to make it consistent throughout the file.
+{{ hint }}
+
+- `for` loop:
 
 ```python
 for x in _list:
@@ -217,7 +213,7 @@ for i in range(len(_list)):
     print(_list[i])
 ```
 
-`while` loop:
+- `while` loop:
 
 ```python
 i = 0
@@ -232,7 +228,7 @@ Define a function:
 
 ```python
 def my_func(x):
-	x += 1
+    x += 1
     print('in function: ', x)
     return x
 ```
@@ -249,10 +245,10 @@ print(f'out of funciton, t: {t}, tt: {tt}')
 
 ### 4.1. Array creation
 
-A numpy array is a grid of values, all of the same type, and is indexed by a tuple of nonnegative integers.
+A `numpy` array is a grid of values, all of the same type, and is indexed by a tuple of integers.
 The number of dimensions is the *rank* of the array; the *shape* of an array is a tuple of integers giving the size of the array along each dimension.
 
-We can initialize numpy arrays from nested Python lists, and access elements using square brackets:
+We can initialize `numpy` arrays from nested Python lists, and access elements using square brackets:
 
 ```python
 import numpy as np
@@ -292,7 +288,7 @@ print(e)
 
 ### 4.2. Array indexing
 
-Similar to Python lists, numpy arrays can be sliced. Since arrays may be multidimensional, you must specify a slice for each dimension of the array:
+Similar to Python lists, `numpy` arrays can be sliced.
 
 ```python
 # Create a rank 1 array and reshape it to a 3x4 matrix
@@ -306,7 +302,8 @@ b[0, 0] = 888
 print(a)
 ```
 
-You can mix integer indexing with slice indexing. However, integer indexing will yield an array of lower rank than the original array:
+You can mix integer indexing with slice indexing.
+However, integer indexing will yield an array of lower rank than the original array:
 
 ```python
 row_r1 = a[1, :]    # Rank 1 view of the second row of a
@@ -315,7 +312,7 @@ print(row_r1, row_r1.shape)
 print(row_r2, row_r2.shape)
 ```
 
-You can also access element in the array through lists:
+You can also access array elements through lists:
 
 ```python
 x = [0, 1, 2]
@@ -333,11 +330,10 @@ print(a[b])
 
 ### 4.3. Array math
 
-Basic mathematical functions operate element-wise on arrays, and are available both as operator overloads and as functions in the numpy module:
-
+Basic mathematical functions operate element-wise on arrays, and are available both as operator overloads and as functions in the `numpy` module:
 ```python
-x = np.arange(1, 5, dtype=np.float).reshape(2, 2)
-y = np.arange(5, 9, dtype=np.float).reshape(2, 2)
+x = np.arange(1, 5, dtype=float).reshape(2, 2)
+y = np.arange(5, 9, dtype=float).reshape(2, 2)
 print(x)
 print(y)
 
@@ -366,16 +362,15 @@ print(x ** 0.5)
 print(np.sqrt(x))
 ```
 
-Matrix multiplication
-
+Matrix multiplication is realized by `np.dot` or operator `@`:
 ```python
-x = np.arange(1, 5, dtype=np.float).reshape(2, 2)
-y = np.arange(5, 9, dtype=np.float).reshape(2, 2)
+x = np.arange(1, 5, dtype=float).reshape(2, 2)
+y = np.arange(5, 9, dtype=float).reshape(2, 2)
 print(x)
 print(y)
 
-v = np.array([9, 10], dtype=np.float)
-w = np.array([11, 12], dtype=np.float)
+v = np.array([9, 10], dtype=float)
+w = np.array([11, 12], dtype=float)
 
 # Inner product
 print(v.dot(w))
@@ -394,11 +389,10 @@ print(x @ y)
 ```
 
 {{ hint_warning }}
-**Attention:** `np.dot()` and `@` behaves differently when the matrix rank is greater than 2.
+**Attention:** `np.dot()` and `@` behaves differently when the matrix rank is larger than 2.
 {{ _hint }}
 
-Numpy provides many useful functions for performing computations on arrays such as  `sum`:
-
+`Numpy` also provides functions for performing computations within an array:
 ```python
 print(np.sum(x))  # Compute sum of all elements; prints "10"
 print(x.sum())  # same as above
@@ -407,13 +401,14 @@ print(np.sum(x, axis=1))  # Compute sum of each row; prints "[3 7]"
 ```
 
 To transpose a matrix, use the `T` attribute of an array object:
-
 ```python
 print(x.T)
+```
 
-# Note that taking the transpose of a rank one array does nothing:
-print(v)
-print(v.T)
+If you have a rank >2 matrix, you can use `np.transpose` to specify how to permute the axes:
+```python
+x = np.arange(24).reshape(2, 3, 4)
+print(x.transpose(1, 0, 2).shape)
 ```
 
 ## 5. Using Matplotlib for Visualization
@@ -572,7 +567,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 ```
 
-Stratify your sample by the target variable will ensure your training set looks similar to your test set, making your evaluation metrics more reliable.
+Stratifying your sample by the target variable will ensure your training set looks similar to your test set, making your evaluation metrics more reliable.
 
 ### 6.5. Pre-processing
 
