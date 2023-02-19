@@ -279,8 +279,8 @@ For example,
 
 ```scala
 def foo(i:Int) = {
-	println(s"value: $i")
-	i * 2
+     println(s"value: $i")
+     i * 2
 }
 
 val newList = List[Int](1, 2, 3).map(i => foo(i))
@@ -291,7 +291,7 @@ We can use the follow lines instead:
 ```scala
 val newList = List[Int](1, 2, 3).map(i => {
     println(s"value: $i")
-	i * 2
+    i * 2
 })
 ```
 
@@ -300,7 +300,7 @@ A better practice here is:
 ```scala
 val newList = List[Int](1, 2, 3).map{i =>
     println(s"value: $i")
-	i * 2
+    i * 2
 }
 ```
 
@@ -403,8 +403,8 @@ scala> :paste
 
 case class Foo(a:String, b:Int)
 object Bar {
-	def apply(a:String): Foo =
-		Foo(a, a.length)
+    def apply(a:String): Foo =
+        Foo(a, a.length)
 }
 
 // Exiting paste mode, now interpreting.
@@ -915,7 +915,7 @@ res13: Iterator[List[Int]] = Iterator(List(1, 2), List(3, 4), List(5))
 ```
 {{ _hint }}
 
-You can visit [this PDF](https://www.scala-lang.org/docu/files/ScalaByExample.pdf) for an official guide.
+You can visit [this webpage](https://docs.scala-lang.org/) for more information.
 
 We also highly recomended to read the book [Programming in Scala](https://www.amazon.com/dp/B004Z1FTXS) for more detail instruction.
 
@@ -926,7 +926,7 @@ We also highly recomended to read the book [Programming in Scala](https://www.am
 Working with large real-world applications, you usually need to compile and package your source code with some tools. Here we show how to compile and run a simple program with [sbt](http://www.scala-sbt.org/index.html). Run the sample code in 'hello-bigdata' folder
 
 ```bash
-% cd ~/bigdata-bootcamp/sample/hello-bigdata
+% cd /bigdata-bootcamp/sample/hello-bigdata
 % sbt run
 Attempting to fetch sbt
 ######################################################################### 100.0%

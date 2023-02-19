@@ -50,7 +50,7 @@ res0: org.apache.spark.SparkContext = org.apache.spark.SparkContext@27896d3b
 
 Resilient Distributed Dataset (RDD) is Spark's core abstraction for working with data.
 An RDD is simply a fault-tolerant **distributed** collection of elements.
-You can imagine RDD as a large array whose elements cannot be accessed randomly
+You can imagine RDD as a large array whose elements cannot be accessed randomly.
 However, you can apply the same operations to all elements in the array easily.
 In Spark, all the work is expressed as either creating new RDDs, transforming existing RDDs, or calling operations on RDDs to compute results.
 There are two ways to create RDDs: by distributing a collection of objects (e.g., a list or set), or by referencing a dataset in an external storage system, such as a shared filesystem, HDFS, HBase, or any data source offering a Hadoop InputFormat.
@@ -94,10 +94,10 @@ We need to put the data case.csv into HDFS, and to do this, run the following co
 ```bash
 > cd /bigdata-bootcamp/data
 > sudo su - hdfs
-> hdfs dfs -mkdir -p input
-> hdfs dfs -chown -R root input
+> hdfs dfs -mkdir -p /input
+> hdfs dfs -chown -R root /input
 > exit 
-> hdfs dfs -put case.csv input
+> hdfs dfs -put case.csv /input
 ```
 
 What you do above is that first, you switch to the `hdfs` user.
@@ -111,7 +111,7 @@ Of course, you can create it to other place with absolute or relative paths.
 Finally, after exiting HDFS, you copy data from local file system to HDFS using `-put`.
 
 ```scala
-scala> val lines = sc.textFile("input/case.csv")
+scala> val lines = sc.textFile("/input/case.csv")
 lines: org.apache.spark.rdd.RDD[String] = README.md MapPartitionsRDD[1] at textFile at <console>:21
 ```
 
@@ -344,7 +344,7 @@ For example, we can combine the two files by the `union` function.
 Please notice that `union` here is not strictly identical to union operation in mathematics as Spark will not remove duplications.
 
 ```scala
-scala> val linesControl = sc.textFile("input/control.csv")
+scala> val linesControl = sc.textFile("/input/control.csv")
 scala> lines.union(linesControl).count()
 res11: Long = 31144
 
@@ -354,7 +354,7 @@ res11: Long = 31144
 Here, a more straightforward way is to use directory name to read in multiple files of that directory into a single RDD. 
 
 ```scala
-scala> val lines = sc.textFile("input/")
+scala> val lines = sc.textFile("/input/")
 ```
 {{ _hint }}
 
@@ -364,11 +364,11 @@ Exercise: how to count the number of drugs that appear in both case.csv and cont
 
 Answer:
 ```scala
-scala> val drugCase = sc.textFile("input/case.csv").
+scala> val drugCase = sc.textFile("/input/case.csv").
                      filter(_.contains("DRUG")).
                      map(_.split(",")(1)).
                      distinct()
-scala> val drugControl = sc.textFile("input/control.csv").
+scala> val drugControl = sc.textFile("/input/control.csv").
                      filter(_.contains("DRUG")).  
                      map(_.split(",")(1)).
                      distinct()
