@@ -1,22 +1,19 @@
 @inproceedings{zhuang-etal-2022-resel,
-  author    = {Yuchen Zhuang and
-               Yinghao Li and
-               Jerry Junyang Cheung and
-               Yue Yu and
-               Yingjun Mou and
-               Xiang Chen and
-               Le Song and
-               Chao Zhang},
-  title     = {ReSel: N-ary Relation Extraction from Scientific Text and Tables by
-               Learning to Retrieve and Select},
-  journal   = {CoRR},
-  volume    = {abs/2210.14427},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2210.14427},
-  doi       = {10.48550/arXiv.2210.14427},
-  eprinttype = {arXiv},
-  eprint    = {2210.14427},
-  timestamp = {Mon, 31 Oct 2022 12:04:42 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2210-14427.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+    title = "{R}e{S}el: N-ary Relation Extraction from Scientific Text and Tables by Learning to Retrieve and Select",
+    author = "Zhuang, Yuchen  and
+      Li, Yinghao  and
+      Zhang, Junyang  and
+      Yu, Yue  and
+      Mou, Yingjun  and
+      Chen, Xiang  and
+      Song, Le  and
+      Zhang, Chao",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.46",
+    pages = "730--744",
+    abstract = "We study the problem of extracting N-ary relation tuples from scientific articles. This task is challenging because the target knowledge tuples can reside in multiple parts and modalities of the document. Our proposed method ReSel decomposes this task into a two-stage procedure that first retrieves the most relevant paragraph/table and then selects the target entity from the retrieved component. For the high-level retrieval stage, ReSel designs a simple and effective feature set, which captures multi-level lexical and semantic similarities between the query and components. For the low-level selection stage, ReSel designs a cross-modal entity correlation graph along with a multi-view architecture, which models both semantic and document-structural relations between entities. Our experiments on three scientific information extraction datasets show that ReSel outperforms state-of-the-art baselines significantly.",
 }

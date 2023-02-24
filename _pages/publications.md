@@ -18,7 +18,7 @@ Yuchen Zhuang, **Yinghao Li**, Jerry Junyang Cheung, Yue Yu, Yingjun Mou, Xiang 
 In *Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing*, pages 730–744. 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2210.14427.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2210.14427){: .btn--research}
-[<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.46/){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://aclanthology.org/2022.emnlp-main.46/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/night-chen/ReSel){: .btn--research}
 [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2022-resel.bib){: .btn--research}
 
