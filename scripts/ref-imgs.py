@@ -14,14 +14,14 @@ class Args:
         metadata={"help": "The path to the image files."}
     )
     suffix: Optional[str] = field(
-        default="jpg",
+        default=None,
         metadata={"help": "The suffix of the files which we are acquiring paths. "
                           "If not specified, all files in input folder will be visited."},
     )
 
 def ref_images(args: Args):
     path_list = list()
-    for f in glob.glob(os.path.join(args.input_dir, f"*.{args.suffix}")):
+    for f in glob.glob(os.path.join(args.input_dir, f"*.{args.suffix}" if args.suffix else "*")):
         path_list.append(os.path.normpath(os.path.abspath(f)))
     path_list.sort()
     temp_path = path_list[0]
