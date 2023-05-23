@@ -44,8 +44,11 @@ Applied scientist intern @ Amazon, Seattle
 - Mentor: [Dr. Colin Lockard](https://www.colinlockard.com/); Manager: [Dr. Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/)
 
 
-News and Thoughts
+Updates
 ---
+### May, 2023
+- **[22]** Checkout my visit to my home country [China]({{base_path}}/gallery/2023/05/china)!
+- **[04]** My work at Amazon on extracting shopping interest-related product types is accepted to the *ACL 2023 findings*. The paper will be posted soon.
 
 ### December, 2022
 - **[29]** Checkout my photos of [this fall]({{base_path}}/gallery/2022/11/autumn)!
