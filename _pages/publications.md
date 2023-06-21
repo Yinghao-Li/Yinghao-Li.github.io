@@ -12,6 +12,14 @@ author_profile: true
 
 2023
 ---
+### MUBen: Benchmarking the Uncertainty of Pre-Trained Models for Molecular Property Prediction
+**Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
+In *arXiv preprint arXiv:2306.10060*, 2020.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UncertaintyBenchmark){: .btn--research}
+<!-- [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2020-ntg.bib){: .btn--research} -->
+
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
 In *Findings Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
