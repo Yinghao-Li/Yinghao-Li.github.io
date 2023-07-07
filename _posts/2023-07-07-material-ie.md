@@ -45,7 +45,7 @@ While labeling functions are quicker to construct initially, the marginal revenu
 
 |![]({{base_path}}/images/material-ie/pipeline.png)|
 |:--:| 
-| Figure 1. *The pipeline of human-assisted information extraction pipeline from material science papers.* |
+| Figure 1. *The pipeline of human-assisted information extraction from material science papers.* |
 
 We propose an IE pipeline based on the active learning schema, as shown in Figure 1, to minimize human annotation effort without compromising model performance.
 Similar to weak supervision approaches, we begin with simple labeling functions to provide an initial set of weakly annotated labels.
