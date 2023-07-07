@@ -43,9 +43,11 @@ One workaround is weak supervision, which employs dictionary matching or multipl
 Although weak supervision approaches have shown promising performance in denoising noisy input labels, they still cannot fully address the gap caused by annotation quality.
 While labeling functions are quicker to construct initially, the marginal revenue from labeling new data points exceeds that from designing new labeling functions after several iterations of label annotation/labeling function application.
 
-![ The pipeline of human-assisted information extraction pipeline from material science papers. ]({{base_path}}/images/material-ie/pipeline.png){#fig:1.pipeline width="95%"}
+|![]({{base_path}}/images/material-ie/pipeline.png)|
+|:--:| 
+| Figure 1. *The pipeline of human-assisted information extraction pipeline from material science papers.* |
 
-We propose an IE pipeline based on the active learning schema, as shown in Figure [1](#fig:1.pipeline){reference-type="ref" reference="fig:1.pipeline"}, to minimize human annotation effort without compromising model performance.
+We propose an IE pipeline based on the active learning schema, as shown in Figure 1, to minimize human annotation effort without compromising model performance.
 Similar to weak supervision approaches, we begin with simple labeling functions to provide an initial set of weakly annotated labels.
 Rather than training models directly with these weak labels, we select a small subset of the annotated data and present them to human annotators for correction.
 An ML model is then trained on the refined subset and applied to the article corpus to gather more data points with higher precision.
@@ -74,3 +76,148 @@ In summary, our contribution is threefold:
 2.  we propose an active learning-based information extraction pipeline that achieves promising performance with minimal human involvement; and
 
 3.  we validate our system on the specific task of identifying thermodynamic properties within the scientific literature and demonstrate the effectiveness of our system in providing valuable data for the development of machine learning models to screen polymers for chemical recyclability.
+
+## Method
+
+This section discusses our information extraction pipeline, which includes 3 steps: 1) document parsing, 2) heuristic extraction and 3) label refinement with active learning.
+
+### Document parsing
+
+To facilitate the later information extraction process, our first step was to design a program that parses research articles in HyperText Markup Language (HTML) and Extensible Markup Language (XML) into machine-readable data structures.
+We choose HTML/XML over PDF because almost all recent articles have HTML/XML formats available, which provide cleaner content than the PDF format.
+While previous works, such as ChemDataExtractor, have developed general-purpose parsers, their quality is suboptimal due to a lack of publisher-wise fine-tuning.
+Specifically, existing parsers struggle to distinguish section titles, image captions, or special components such as citations from informative article paragraphs.
+This results in incorrect sentence/paragraph splits, which can jeopardize the subsequent semantic encoding steps. In contrast, our parser is tailored for each publisher and achieves cleaner parsing results, leading to better overall performance.
+
+On the contrary, our article parser is designed to focus on several prominent online publishers where the majority of influential material science articles are published, including [AAAS](https://www.aaas.org/), [ACS](https://www.acs.org/content/acs/en.html), [AIP](https://aip.scitation.org/), [Elsevier](https://www.elsevier.com/), [nature](https://www.nature.com/), [Royal Society of Chemistry](https://www.rsc.org/), [Springer](https://www.springer.com/us), and [Wiley](https://www.wiley.com/en-us).
+By focusing on a narrower range of publishers, we can tailor our parser for each one, taking into account their unique article formats and structures.
+This enables us to accurately distinguish titles, abstracts, paragraphs, images, and table captions from each other.
+Additionally, our parser is capable of converting tables into machine-comprehensible data structures without losing any structure or content information, provided such information is available in the original documents.
+
+We also take great care in normalizing the web contents by filtering out uncommon Unicode hyphens and invisible characters, unifying characters with the same semantics, and removing redundant white spaces and new lines.
+This step removes distractions from the corpus and helps labeling rules and supervised models to discover more distinct features, thus promoting the performance of information extraction.
+
+### Information extraction with labeling rules
+
+Equipped with machine-comprehensible paper content, the next step is to design labeling functions (LFs) to provide an initial set of annotations, which we can manually refine and use to train supervised models.
+High-quality LFs are desirable as they greatly reduce human effort.
+However, it can be challenging to come up with such rules since the quality of annotations varies depending on the ambiguity of the target information, the difficulty of the specific IE task.
+In the following paragraphs, we discuss the target information to extract and the labeling rules we adopt to achieve the best annotation quality.
+
+#### Problem setup
+
+The IE process consists of two main tasks: named entity recognition (NER) and relation extraction (RE).
+NER aims to classify each token in the input text sequence into predefined categories, such as `Material Name`, `Property Name`, `Quantity`, or `O` (which indicates that the current token is of no interest).
+From another perspective, NER locates the spans of the tokens that belong to specific entity categories.
+RE, on the other hand, links the identified entities to form relation tuples.
+For instance, given a material entity and a property entity, we can associate them using RE techniques and claim "this specific material has this specific property".
+In our work, we focus on extracting not only Material Name, Property Name, and Quantity entities, but also their relation tuples.
+Specifically, we aim to extract the property values of certain types of materials from the scientific literature.
+
+#### Recognizing named entities
+
+##### Quantity
+
+A `Quantity` entity comprises two sub-types: `Number` and `Unit`.
+Detecting numbers, including decimals such as "12.34", negative numbers such as "-12", and ranges such as "12 -- 34", is a relatively simple task that can be accomplished using simple regular expressions.
+The only potential source of ambiguity comes from citation numbers, which can be excluded with acceptable accuracy in the subsequent relation extraction step.
+
+One desirable attribute of the `Unit` entity type is that it is possible to construct a *finite* set that contains all possible unit keywords associated with a specific property.
+This enables us to manually compose a look-up dictionary for each property, such as "\[K, \]" for temperatures, and perform direct keyword matching.
+Keyword matching generally prioritizes precision over recall (coverage), which is more appropriate for a "human-in-the-loop" system.
+
+##### Property Name
+
+Similarly to `Unit`, it is practical to enumerate all possible forms of a `Property Name` or express it as regular expression patterns and apply keyword matching to identify such entities in the article paragraphs.
+For instance, the property "ceiling temperature" is usually referred to in the papers as "ceiling temperature" itself or the abbreviation "$T_{\rm c}$", and we look for such keywords to label them as `Property Name` entities. However, multiple properties can share the same abbreviation, causing confusion for the labeling function and leading to false positives.
+Rather than addressing this issue here, we handle it with the supervised ML model in subsequent steps.
+The ML model is more capable of contextual comprehension and can understand the actual meaning of an expression.
+
+##### Material Name
+
+Constructing labeling functions (LFs) for material names is a complex task due to the lack of clear lexical features that distinguish material names and the absence of a comprehensive dictionary containing all variants of material names.
+As a result, we adopt three LFs to identify material names, including:
+
+1.  a BERT-based NER model trained on the dataset provided by @shetty2021automated;
+
+2.  the material named detector integrated with the ChemDataExtractor, which is also rule-based but complex enough to handle most real-world scenarios with decent performance; and
+
+3.  a keyword matcher powered by a small dictionary containing frequently appeared material names.
+
+While these LFs are mostly complementary, they can occasionally generate entity spans that partially overlap with one another.
+In such cases, we resolve the conflict by selecting the largest span as the final `Material Name` entity.
+
+#### Extracting relations
+
+The purpose of the RE step is to group the extracted entities into relation tuples of the form `<Material Name, Property Name, Quantity>`, which represents "the *property* of this *material* equals to *quantity*".
+The `Quantity` entity consists of a pair of `<Number, Unit>` and should be the first relation to be identified.
+In practice, we consider a pair of `Number` and `Unit` entities to be a valid `Quantity` entity if the gap between them is less than 5 characters, with the `Number` entity appearing first.
+To link the `Property Name` to the `Quantity`, we look for the `Property Name` entity that appears in the same sentence as the `Quantity` with the shortest distance counted by tokens.
+As the last element of the tuple, we consider the last `Material Name` entity appearing before the `Property Name` in the same *paragraph* as the subject of the property.
+
+### Label refinement and active learning
+
+As mentioned in the previous sections, the output from labeling functions (LFs) is not sufficiently clean to be added directly to the property prediction dataset that we aim to build.
+The main source of errors is due to property synonyms and incorrect linkages among material names, property names, and quantities, which are difficult, if not impossible, to avoid by improving the labeling functions alone.
+To address this issue, we incorporate a machine learning (ML) model to remove false positives and pick up instances that were potentially missed during the LF annotation due to incomplete keyword dictionaries.
+
+While there are some studies that investigate training ML models directly with noisy labels, they are still unable to achieve performance on par with ML models trained on clean labels.
+Since our IE task is more application-driven, it is necessary to manually refine the noisy labels to get the best performance from the ML models.
+
+#### Label refinement
+
+Instead of correcting individual entities, we have opted for a more user-friendly label refinement approach, which involves correcting sentence annotations.
+This change reduces the minimal element to annotate from tokens to sentences, and it is feasible because we require the `Property Name` to appear within the same sentence as the `Quantity`.
+Accordingly, we consider sentences containing `<Property Name, Quantity>` pairs as positive, and all others as negative.
+
+We present the set of sentences labeled as positive by LFs, along with the corresponding articles, to material science experts.
+By examining the sentences and their context, the experts determine whether the positive labels are correct, *i.e.*, whether they represent true positives or false positives.
+We add the entities from the true positive sentences to the property prediction dataset, while discarding those from the false positive sentences.
+
+#### Model training
+
+##### Dataset
+
+The label refinement step naturally generates a dataset containing positive sentences (true positive LF results) and *semantically similar* negative sentences (false positive LF results).
+The similarity between the negative and positive instances makes it challenging for human annotators to distinguish them without referring to the context.
+To further challenge the model, we also randomly sample several negative sentences from the article to create the remotely negative set.
+The remote set aims to teach the model to differentiate between common, uninformative sentences and positive instances.
+
+##### Model architecture
+
+We leverage the power of Transformer-based models, such as BERT or RoBERTa, which are large pre-trained language models (PLMs), for the sentence classification task.
+PLMs are typically models with hundreds of millions of parameters pre-trained on corpora with a scale of billions, using objectives such as masked token prediction.
+Due to their size and pre-training, PLMs have the ability to comprehend natural language, making them particularly effective when fine-tuned on small datasets.
+These models map each word/token in natural language to a high-dimensional real-valued vector, known as a \"token embedding\", which is more interpretable by machines.
+Tokens with similar semantic meanings are usually clustered together in the Euclidean space where the embeddings are defined.
+We choose BioBERT, a variant pre-trained on biomedical and chemistry corpora, as it is better suited to understanding material science papers than general-domain BERT models.
+
+##### Model fine-tuning
+
+The BioBERT model is fine-tuned using binary sentence classification, following the conventional BERT-for-sentence-classification setup proposed by @Delvin-2019-bert.
+To this end, models in the BERT family prepend a special token `[CLS]` to each tokenized input sentence.
+This token is regarded as the representation of the whole sentence, with its embedding carrying the corresponding semantics.
+A classification layer is then appended to the sentence embedding to perform the classification operation.
+This layer maps the high-dimensional vector to a 1-dimensional real-value scalar, which is converted through a sigmoid function to a probability sample within the range $(0,1)$ representing the probability of the sentence being positive.
+The model parameters $\btht$ are updated by minimizing the negative log-likelihood between the true label $y_i\in{0,1}$ and the predicted probabilities $p_i \in (0,1)$ using gradient descent, resulting in the following loss function:
+
+$$\min_{\btht} \left[ -\sum_{i=1}^N y_i \log p_i + (1-y_i) \log (1-p_i) \right],$$
+
+where $N$ is the number of total data points in the dataset and $i\in {1,2, \dots, N }$ is the instance index.
+After fine-tuning, the probability $p_i$ is passed through a threshold $\eta$ to decide whether the input sentence is predicted as positive, *i.e.*, $\hat{y}=1$.
+This is achieved through the following equation:
+
+$$\hat{y} = \I (p_i > \eta),$$
+
+where $\eta$ is typically set to 0.5, but can be adjusted to acknowledge precision or recall requirements.
+
+#### Active learning
+
+To reduce the human labor required for refining hundreds of LF outputs in one shot, we adopt an iterative active learning scheme that leverages fully supervised models, which perform better with more training data, especially when the size of the initial dataset is small.
+Our approach involves first selecting a small set of high-confidence LF outputs, refining their labels, and fine-tuning the BioBERT model.
+Next, we apply BioBERT to the original corpus and generate a new set of positive sentences that contain the `<Property Name, Quantity>` entity pairs.
+The new data points are ranked by confidence scores, and the top-$K$ data points that have not appeared in the previous dataset are selected for annotation.
+We repeat this process several times until we have exhausted the high-confidence positive predictions or have achieved the desired dataset size for property prediction.
+
+
+**TO BE CONTINUED**
