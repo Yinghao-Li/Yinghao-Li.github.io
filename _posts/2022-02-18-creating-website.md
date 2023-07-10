@@ -97,23 +97,23 @@ GitHub 会在云端自动编译项目。
 
 > 参考：[[3.4.1](https://jayrobwilliams.com/posts/2020/07/customizing-website/#pushing-buttons)].
 
-模板在 `./_sass/_buttongs.scss` 文件中定义了按钮样式 `.btn` 。
+模板在 `./_sass/_buttons.scss` 文件中定义了按钮样式 `.btn` 。
 我们可以直接使用 `markdown` 语法
 ```md
-[<button name>](<buttong link>){: .btn}  // default button style
+[<button name>](<button link>){: .btn}  // default button style
 ```
 来创建按钮，效果类似于： [按钮](){: .btn} 。
 
-除此之外， `./_sass/_buttongs.scss` 文件也提供了一些额外的按钮风格，比如 `small` ， `inverse` 或者 `warning`。
+除此之外， `./_sass/_buttons.scss` 文件也提供了一些额外的按钮风格，比如 `small` ， `inverse` 或者 `warning`。
 特定风格的按钮可以通过
 ```md
-[<button name>](<buttong link>){: .btn--<style>}  // button with a specific style
+[<button name>](<button link>){: .btn--<style>}  // button with a specific style
 ```
 来创建，例如： [反相按钮](){: .btn--inverse} 。
 
 我们也可以通过 `sass` 语法来定义自己的按钮风格。
 [这篇文章](https://jayrobwilliams.com/posts/2020/07/customizing-website)中提供了一个自定义风格的示例。
-在 `./_sass/_buttongs.scss` 文件中，我们可以添加名为 "research" 的按钮风格
+在 `./_sass/_buttons.scss` 文件中，我们可以添加名为 "research" 的按钮风格
 ```scss
 /* research page buttons */
 &--research {
@@ -141,10 +141,7 @@ GitHub 会在云端自动编译项目。
 
 {{ hint_warning }}
 我在本地通过 `jekyll server` 命令预览按钮样式时发现除了默认以外的风格几乎全部不能正常显示。
-原因是 `jekyll server` 命令在本地运行时，使用了 `sass` 的 `--cache-location` 选项。
-（！！！真的吗？上面一句是 Copilot 自动补全的。我本来想说原因未知，因为我不是专业人员……
-我也不知道它说的对不对，请大家自行甄别。）
-无论如何，该修改可以在 GitHub Pages 正常编译与显示，因此无需担心。
+但是这些按钮风格可以在 GitHub Pages 正常编译与显示，因此无需担心。
 {{ _hint }}
 
 ### 3.5. 自定义高亮文本样式

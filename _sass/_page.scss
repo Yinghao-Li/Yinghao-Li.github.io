@@ -72,6 +72,13 @@
     }
   }
 
+  /* paragraph alignment */
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+
   a {
     text-decoration: underline;
 
