@@ -221,7 +221,7 @@ We repeat this process several times until we have exhausted the high-confidence
 
 | <!-- -->    |
 |-------------|
-|![]({{base_path}}/images/material-ie/parser.png)|
+|![]({{base_path}}/images/material-ie/parsers.png)|
 |Figure 2. *The first 5 article elements extracted from a work recently published by using our parser and ChemDataExtractor, respectively.  Useful contents are marked as red.  For better demonstration, we substitute some strings with "......".*|
 
 ### 3.1. Document Parsing
