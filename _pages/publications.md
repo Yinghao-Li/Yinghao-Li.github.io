@@ -25,9 +25,9 @@ In *arXiv preprint arXiv:2306.10060*, 2020.
 In *Findings Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2305.14549.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2305.14549){: .btn--research}
-<!-- [<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://aclanthology.org/2022.emnlp-main.46/){: .btn--research} -->
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/WebIE){: .btn--research}
-<!-- [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2022-resel.bib){: .btn--research} -->
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023.trenc.bib){: .btn--research}
 
 
 2022
