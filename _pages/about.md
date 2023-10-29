@@ -46,9 +46,12 @@ Applied scientist intern @ Amazon, Seattle
 
 Updates
 ---
+### October, 2023
+- **[28]** Paper [MUBen](https://arxiv.org/abs/2306.10060) accepted by NeurIPS Ai4Science workshop.
+
 ### May, 2023
 - **[22]** Checkout my visit to my home country [China]({{base_path}}/gallery/2023/05/china)!
-- **[04]** My work at Amazon on extracting shopping interest-related product types is accepted to the *ACL 2023 findings*. The paper will be posted soon.
+- **[04]** Work at Amazon on extracting shopping interest-related product types is accepted to the *ACL 2023 findings*. The paper will be posted soon.
 
 ### December, 2022
 - **[29]** Checkout my photos of [this fall]({{base_path}}/gallery/2022/11/autumn)!
