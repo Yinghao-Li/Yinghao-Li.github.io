@@ -12,9 +12,16 @@ author_profile: true
 
 2023
 ---
+### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
+**Yinghao Li**, Haorui Wang, Chao Zhang  
+In *arXiv preprint arXiv:2311.07387*, 2023.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/Minesweeper-for-LLM){: .btn--research}
+
 ### MUBen: Benchmarking the Uncertainty of Pre-Trained Models for Molecular Property Prediction
 **Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
-In *arXiv preprint arXiv:2306.10060*, 2020.  
+In *arXiv preprint arXiv:2306.10060*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UncertaintyBenchmark){: .btn--research}
@@ -25,7 +32,7 @@ In *arXiv preprint arXiv:2306.10060*, 2020.
 In *Findings Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2305.14549.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2305.14549){: .btn--research}
-[<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/WebIE){: .btn--research}
 [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023.trenc.bib){: .btn--research}
 

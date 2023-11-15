@@ -46,6 +46,10 @@ Applied scientist intern @ Amazon, Seattle
 
 Updates
 ---
+
+### November, 2023
+- **[15]** Checkout my recent work on the intrinsic reasoning abilities of large language models: [Minesweeper](https://arxiv.org/abs/2311.07387)!
+
 ### October, 2023
 - **[28]** Paper [MUBen](https://arxiv.org/abs/2306.10060) accepted by NeurIPS Ai4Science workshop.
 
