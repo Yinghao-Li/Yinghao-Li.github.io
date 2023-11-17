@@ -29,6 +29,7 @@ In *arXiv preprint arXiv:2311.07387*, 2023.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/Minesweeper-for-LLM){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-minesweeper.bib){: .btn--research}
 
 ### MUBen: Benchmarking the Uncertainty of Pre-Trained Models for Molecular Property Prediction
 **Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
@@ -36,7 +37,7 @@ In *arXiv preprint arXiv:2306.10060*, 2023.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UncertaintyBenchmark){: .btn--research}
-<!-- [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2020-ntg.bib){: .btn--research} -->
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-muben.bib){: .btn--research}
 
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
