@@ -12,6 +12,17 @@ author_profile: true
 
 2023
 ---
+
+### Accelerated Scheme to Predict Ring-Opening Polymerization Enthalpy: Simulation-Experimental Data Fusion and Multi-Task Machine Learning
+Aubrey Toland, Huan Tran, Lihua Chen, **Yinghao Li**, Chao Zhang, Will R. Gutekunst, Rampi Ramprasad  
+In *The Journal of Physical Chemistry*, 2023 
+
+### PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature
+Jerry Junyang Cheung, Yuchen Zhuang, **Yinghao Li**, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang  
+In *arXiv preprint arXiv:2311.07715*, 2023.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07715.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07715){: .btn--research}
+
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
 In *arXiv preprint arXiv:2311.07387*, 2023.  
