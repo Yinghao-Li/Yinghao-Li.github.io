@@ -14,6 +14,8 @@ I'm a Ph.D. student majored in Machine Learning @ Georgia Institute of Technolog
 I'm advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Dr. Le Song](https://www.linkedin.com/in/le-song-03223813/) on weakly supervised information extraction methods for natural language processing.
 I'm also working on information extraction from Material Science articles.
 
+**[View My CV here]({{base_path}}/files/CV-Yinghao.Li.pdf)**
+
 Education
 ---
 
