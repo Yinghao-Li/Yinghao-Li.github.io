@@ -15,7 +15,7 @@ author_profile: true
 
 ### Accelerated Scheme to Predict Ring-Opening Polymerization Enthalpy: Simulation-Experimental Data Fusion and Multi-Task Machine Learning
 Aubrey Toland, Huan Tran, Lihua Chen, **Yinghao Li**, Chao Zhang, Will R. Gutekunst, Rampi Ramprasad  
-In *The Journal of Physical Chemistry*, 2023 
+In *The Journal of Physical Chemistry*, 2023  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://pubs.acs.org/doi/epdf/10.1021/acs.jpca.3c05870){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACS](https://pubs.acs.org/doi/10.1021/acs.jpca.3c05870#){: .btn--research}
 
