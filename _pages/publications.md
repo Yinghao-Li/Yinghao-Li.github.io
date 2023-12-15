@@ -36,7 +36,7 @@ In *arXiv preprint arXiv:2311.07387*, 2023.
 
 ### MUBen: Benchmarking the Uncertainty of Pre-Trained Models for Molecular Property Prediction
 **Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
-In *arXiv preprint arXiv:2306.10060*, 2023.  
+In *NeurIPS AI4Science Workshop*, 2023  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/NIPS.2023.AI4Sci.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
@@ -45,7 +45,7 @@ In *arXiv preprint arXiv:2306.10060*, 2023.
 
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
-In *Findings Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
+In *Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2305.14549.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2305.14549){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}

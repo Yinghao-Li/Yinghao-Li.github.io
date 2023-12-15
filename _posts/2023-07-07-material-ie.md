@@ -12,8 +12,6 @@ This article briefly introduces my work on information extraction from material 
 But I figure it would be helpful to make it partly available to everyone in case it might be helpful or inspiring to someone who's doing similar work.
 The code is available in [this GitHub repo](https://github.com/Yinghao-Li/MaterialPropertyExtractor).
 
-**Disclaimer**: No content contributed by the collaborators of the original paper is included in this article.
-
 ## Abstract
 Machine learning models can significantly accelerate polymer design by providing reliable predictions for material properties without the need for wet lab experiments.
 However, manually constructing large-scale annotated datasets to train such models can be prohibitively difficult and time-consuming.
