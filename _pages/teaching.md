@@ -16,6 +16,6 @@ I was the teaching assistant for the following courses:
 *Spring 2023; 2024*  
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>Course Website](http://chaozhang.org/course/nlp-bootcamp.html){: .btn--research}
 
-### Georgia Tech CSE8803 DLT: Deep Learning for Text Data
+### Georgia Tech CSE8803 DLT: Deep Learning for Text Data  
 *Fall 2023*  
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>Course Website](http://chaozhang.org/course/cse8803-23f.html){: .btn--research}
