@@ -10,6 +10,29 @@ author_profile: true
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+2024
+---
+
+### ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models
+Yuzhao Heng, Chunyuan Deng, Yitong Li, Yue Yu, **Yinghao Li**, Rongzhi Zhang, Chao Zhang  
+In *arXiv preprint arXiv:2403.11103*, 2024.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2403.11103.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/s2403.11103){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/StefanHeng/ProgGen){: .btn--research}
+
+### A Simple but Effective Approach to Improve Structured Language Model Output for Information Extraction
+**Yinghao Li**, Rampi Ramprasad, Chao Zhang  
+In *arXiv preprint arXiv:2402.13364*, 2024.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2402.13364.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2402.13364){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/GnO-IE){: .btn--research}
+
+### TPD: Enhancing Student Language Model Reasoning via Principle Discovery and Guidance
+Haorui Wang, Rongzhi Zhang, **Yinghao Li**, Lingkai Kong, Yuchen Zhuang, Xiusi Chen, Chao Zhang  
+In *arXiv preprint arXiv:2401.13849*, 2024.  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
+
 2023
 ---
 
