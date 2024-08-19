@@ -38,7 +38,7 @@ I got my Master degree from Georgia Tech, School of ECE, where I worked with [Pr
 Education
 ---
 
-### [Aug. 2020 -- present]
+### [Aug. 2020 -- May 2025]
 
 Ph.D. student @ Georgia Institute of Technology
 *Machine Learning, School of Electrical and Computer Engineering*
@@ -58,6 +58,12 @@ Bachelor of Science @ Southeast University, Nanjing
 
 Experience
 ---
+
+### [May 2024 -- Aug. 2024]
+Applied scientist intern @ AWS, New York
+*SAAR*
+- Mentor: [Dr. Vianne Gao](https://scholar.google.com/citations?user=yZOxljEAAAAJ&hl=en); Manager: [Dr. Ali Torkamani](https://scholar.google.com/citations?user=UtE9noAAAAAJ&hl=en)
+
 
 ### [May 2022 -- Dec. 2022]
 Applied scientist intern @ Amazon, Seattle

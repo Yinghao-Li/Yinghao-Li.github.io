@@ -15,10 +15,12 @@ author_profile: true
 
 ### ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models
 Yuzhao Heng, Chunyuan Deng, Yitong Li, Yue Yu, **Yinghao Li**, Rongzhi Zhang, Chao Zhang  
-In *arXiv preprint arXiv:2403.11103*, 2024.  
+In *Findings of the Association for Computational Linguistics ACL 2024*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2403.11103.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/s2403.11103){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.findings-acl.947/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/StefanHeng/ProgGen){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.proggen.bib){: .btn--research}
 
 ### A Simple but Effective Approach to Improve Structured Language Model Output for Information Extraction
 **Yinghao Li**, Rampi Ramprasad, Chao Zhang  
@@ -33,6 +35,35 @@ In *arXiv preprint arXiv:2401.13849*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
 
+### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
+**Yinghao Li**, Haorui Wang, Chao Zhang  
+In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*, 2024.
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.4/){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/Minesweeper-for-LLM){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-minesweeper.bib){: .btn--research}
+
+### PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature
+Jerry Junyang Cheung, Yuchen Zhuang, **Yinghao Li**, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang  
+In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*, 2024.
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07715.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07715){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.131/){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/jerry3027/PolyIE){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024-polyie.bib){: .btn--research}
+
+### MUBen: Benchmarking the Uncertainty of Molecular Representation Models
+**Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
+In *Transactions on Machine Learning Research*, 2024.
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/NIPS.2023.AI4Sci.poster.pdf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=qYceFeHgm4){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/MUBen){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-muben.bib){: .btn--research}
+
+
 2023
 ---
 
@@ -41,30 +72,6 @@ Aubrey Toland, Huan Tran, Lihua Chen, **Yinghao Li**, Chao Zhang, Will R. Guteku
 In *The Journal of Physical Chemistry*, 2023  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://pubs.acs.org/doi/epdf/10.1021/acs.jpca.3c05870){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACS](https://pubs.acs.org/doi/10.1021/acs.jpca.3c05870#){: .btn--research}
-
-### PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature
-Jerry Junyang Cheung, Yuchen Zhuang, **Yinghao Li**, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang  
-In *arXiv preprint arXiv:2311.07715*, 2023. To appear in NAACL 2024  
-[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07715.pdf){: .btn--research}
-[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07715){: .btn--research}
-[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/jerry3027/PolyIE){: .btn--research}
-
-### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
-**Yinghao Li**, Haorui Wang, Chao Zhang  
-In *arXiv preprint arXiv:2311.07387*, 2023. To appear in NAACL 2024  
-[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
-[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
-[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/Minesweeper-for-LLM){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-minesweeper.bib){: .btn--research}
-
-### MUBen: Benchmarking the Uncertainty of Pre-Trained Models for Molecular Property Prediction
-**Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
-In *NeurIPS AI4Science Workshop*, 2023. To appear in TMLR  
-[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
-[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/NIPS.2023.AI4Sci.poster.pdf){: .btn--research}
-[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
-[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UncertaintyBenchmark){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2023-muben.bib){: .btn--research}
 
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
