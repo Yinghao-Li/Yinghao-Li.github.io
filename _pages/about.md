@@ -36,41 +36,31 @@ I'm a Ph.D. student specializing in Machine Learning at the Georgia Institute of
 Research Interests
 ---
 
-### [Large Language Models]
+### Large Language Models
 
-&nbsp;&nbsp;**Fine-tuning LLMs for structured information retrieval**
-- Developing effective and efficient methods to fine-tune and utilize LLMs for extracting structured information from unstructured documents.
-  - [[G&O. 2024](https://arxiv.org/abs/2402.13364)]
+- Fine-tuning LLMs for structured information retrieval
+  - Developing effective and efficient methods to fine-tune and utilize LLMs for extracting structured information from unstructured documents [[G&O. 2024](https://arxiv.org/abs/2402.13364)].
+- LLMs as pseudo dataset generators
+  - Leveraging LLMs to generate pseudo datasets to supervise the training of smaller, task-specific models like BERT [[ProgGen. 2024](https://arxiv.org/abs/2403.11103)].
+- Investigating the source of LLM reasoning abilities
+  - Exploring whether the reasoning capabilities of LLMs are intrinsic or a mimicry of training data patterns [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)].
 
-&nbsp;&nbsp;**LLMs as pseudo dataset generators**
-- Leveraging LLMs to generate pseudo datasets to supervise the training of smaller, task-specific models like BERT.
-  - [[ProgGen. 2024](https://arxiv.org/abs/2403.11103)]
+### Information Extraction
 
-&nbsp;&nbsp;**Investigating the source of LLM reasoning abilities**
-- Exploring whether the reasoning capabilities of LLMs are intrinsic or a mimicry of training data patterns.
-  - [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)]
+- Weakly-supervised named entity recognition and text classification
+  - Utilizing multiple noisy labeling functions for weak supervision in named entity recognition and text classification [[CHMM. 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)].
+- HTML information extraction
+  - Extracting information from HTML documents using Transformer-based DOM node classifiers [[TrENC. 2023](https://arxiv.org/abs/2305.14549)].
 
-### [Information Extraction]
+### Uncertainty Estimation
 
-&nbsp;&nbsp;**Weakly-supervised named entity recognition and text classification**
-- Utilizing multiple noisy labeling functions for weak supervision in named entity recognition and text classification.
-  - [[CHMM. 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)]
-
-&nbsp;&nbsp;**HTML information extraction**
-- Extracting information from HTML documents using Transformer-based DOM node classifiers.
-  - [[TrENC. 2023](https://arxiv.org/abs/2305.14549)]
-
-### [Uncertainty Estimation]
-
-&nbsp;&nbsp;**Benchmarking uncertainty quantification methods**
-- Evaluating uncertainty quantification techniques for large molecular representation models in molecular property prediction.
-  - [[MUBen. 2024](https://arxiv.org/abs/2306.10060)]
+- Benchmarking uncertainty quantification methods
+  - Evaluating uncertainty quantification techniques for large molecular representation models in molecular property prediction [[MUBen. 2024](https://arxiv.org/abs/2306.10060)].
 
 ### [Text Generation]
 
-&nbsp;&nbsp;**Syntax-guided paraphrase generation**
-- Generating paraphrases under syntactic guidance using constituency parsing tags to enhance text diversity and quality.
-  - [[GuiG. 2020](https://arxiv.org/abs/2010.01737)]
+- Syntax-guided paraphrase generation
+  - Generating paraphrases under syntactic guidance using constituency parsing tags to enhance text diversity and quality [[GuiG. 2020](https://arxiv.org/abs/2010.01737)].
 
 I got my Master degree from Georgia Tech, School of ECE, where I worked with [Prof. Ying Zhang](https://zhang.ece.gatech.edu/) on Radar SCG signal processing and understanding [[Li et al. 2020](https://ieeexplore.ieee.org/document/8920010), [Xia et al. 2021](https://ieeexplore.ieee.org/document/9143413)].
 
