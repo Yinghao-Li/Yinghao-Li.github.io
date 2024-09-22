@@ -12,13 +12,13 @@ redirect_from:
 
 **[My CV]({{base_path}}/files/CV-Yinghao.Li.pdf)**
 
-I'm a Ph.D. student majored in Machine Learning @ Georgia Institute of Technology, advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Dr. Le Song](https://www.linkedin.com/in/le-song-03223813/).
+<!-- I'm a Ph.D. student majored in Machine Learning @ Georgia Institute of Technology, advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Prof. Le Song](https://www.linkedin.com/in/le-song-03223813/).
 
 My research interest covers
 - **Information Extraction**
-  - Effective and efficient way of fine-tuning and using large language models to retrieve structured information from free-formed documents;
-  - Using LLMs as pseudo dataset generator to supervise the training of smaller task-specific labelers, such as BERT;
-  - Weakly-supervised named entity recognision and text classificatio with multiple noisy labeling functions [[Conditional Hidden Markov Model (CHMM). 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)];
+  - Effective and efficient way of fine-tuning and using large language models to retrieve structured information from free-formed documents [[G&O. 2024](https://arxiv.org/abs/2402.13364)];
+  - Using LLMs as pseudo dataset generator to supervise the training of smaller task-specific labelers such as BERT [[ProgGen. 2024](https://arxiv.org/abs/s2403.11103)];
+  - Weakly-supervised named entity recognision and text classificatio with multiple noisy labeling functions [[CHMM. 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)];
   - HTML information extraction through Transformer-based DOM node classifier [[TrENC. 2023](https://arxiv.org/abs/2305.14549)];
   - Rule-based molecular property extractor [[post]({{base_path}}/posts/2023/07/material-ie/), [Toland et al. 2023](https://pubs.acs.org/doi/10.1021/acs.jpca.3c05870#)].
 
@@ -26,13 +26,57 @@ My research interest covers
   - Investigating the source of reasoning ability of LLM: is it intrinsic or a simple mimic of training data? [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)].
 
 - **Uncertainty Estimation**
-  - Benchmarking the uncertainty quantification methods for large modecular representation models on molecular property prediction [[MUBen](https://arxiv.org/abs/2306.10060)].
+  - Benchmarking the uncertainty quantification methods for large molecular representation models on molecular property prediction [[MUBen. 2024](https://arxiv.org/abs/2306.10060)].
 
 - **Text Generation**
-  - Generate paraphrases under the syntactic guidance of constituency parsing tags [[Li et al. 2020](https://arxiv.org/abs/2010.01737)].
+  - Generate paraphrases under the syntactic guidance of constituency parsing tags [[GuiG. 2020](https://arxiv.org/abs/2010.01737)]. -->
 
+I'm a Ph.D. student specializing in Machine Learning at the Georgia Institute of Technology, advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Dr. Le Song](https://www.linkedin.com/in/le-song-03223813/). My research focuses on large language models (LLMs) and their applications in information extraction and reasoning, uncertainty estimation in molecular property prediction, and syntax-guided text generation.
+
+Research Interests
+---
+
+### Large Language Models
+
+- **Fine-Tuning LLMs for Structured Information Retrieval**
+  - Developing effective and efficient methods to fine-tune and utilize LLMs for extracting structured information from unstructured documents.
+    - [[G&O. 2024](https://arxiv.org/abs/2402.13364)]
+- **LLMs as Pseudo Dataset Generators**
+  - Leveraging LLMs to generate pseudo datasets to supervise the training of smaller, task-specific models like BERT.
+    - [[ProgGen. 2024](https://arxiv.org/abs/2403.11103)]
+- **Investigating the Source of LLM Reasoning Abilities**
+  - Exploring whether the reasoning capabilities of LLMs are intrinsic or a mimicry of training data patterns.
+    - [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)]
+
+### Information Extraction
+
+- **Weakly-Supervised Named Entity Recognition and Text Classification**
+  - Utilizing multiple noisy labeling functions for weak supervision in named entity recognition and text classification.
+    - [[CHMM. 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)]
+- **HTML Information Extraction**
+  - Extracting information from HTML documents using Transformer-based DOM node classifiers.
+    - [[TrENC. 2023](https://arxiv.org/abs/2305.14549)]
+- **Rule-Based Molecular Property Extraction**
+  - Developing rule-based extractors for molecular properties.
+    - [[Post]({{base_path}}/posts/2023/07/material-ie/), [Toland et al. 2023](https://pubs.acs.org/doi/10.1021/acs.jpca.3c05870#)]
+
+### Uncertainty Estimation
+
+- **Benchmarking Uncertainty Quantification Methods**
+  - Evaluating uncertainty quantification techniques for large molecular representation models in molecular property prediction.
+    - [[MUBen. 2024](https://arxiv.org/abs/2306.10060)]
+
+### Text Generation
+
+- **Syntax-Guided Paraphrase Generation**
+  - Generating paraphrases under syntactic guidance using constituency parsing tags to enhance text diversity and quality.
+    - [[GuiG. 2020](https://arxiv.org/abs/2010.01737)]
 
 I got my Master degree from Georgia Tech, School of ECE, where I worked with [Prof. Ying Zhang](https://zhang.ece.gatech.edu/) on Radar SCG signal processing and understanding [[Li et al. 2020](https://ieeexplore.ieee.org/document/8920010), [Xia et al. 2021](https://ieeexplore.ieee.org/document/9143413)].
+
+---
+
+Feel free to reach out if you'd like to discuss collaborative opportunities or have any questions about my research.
 
 
 Education

@@ -15,7 +15,7 @@ author_profile: true
 
 ### ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models
 Yuzhao Heng, Chunyuan Deng, Yitong Li, Yue Yu, **Yinghao Li**, Rongzhi Zhang, Chao Zhang  
-In *Findings of the Association for Computational Linguistics ACL 2024*, 2024.  
+In *Findings of ACL*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2403.11103.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/s2403.11103){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.findings-acl.947/){: .btn--research}
@@ -24,20 +24,20 @@ In *Findings of the Association for Computational Linguistics ACL 2024*, 2024.
 
 ### A Simple but Effective Approach to Improve Structured Language Model Output for Information Extraction
 **Yinghao Li**, Rampi Ramprasad, Chao Zhang  
-In *arXiv preprint arXiv:2402.13364*, 2024.  
+In *Findings of EMNLP*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2402.13364.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2402.13364){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/GnO-IE){: .btn--research}
 
 ### TPD: Enhancing Student Language Model Reasoning via Principle Discovery and Guidance
 Haorui Wang, Rongzhi Zhang, **Yinghao Li**, Lingkai Kong, Yuchen Zhuang, Xiusi Chen, Chao Zhang  
-In *arXiv preprint arXiv:2401.13849*, 2024.  
+In *COLM*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
 
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
-In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*, 2024.
+In *NAACL*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.4/){: .btn--research}
@@ -46,7 +46,7 @@ In *Proceedings of the 2024 Conference of the North American Chapter of the Asso
 
 ### PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature
 Jerry Junyang Cheung, Yuchen Zhuang, **Yinghao Li**, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang  
-In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*, 2024.
+In *NAACL*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07715.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07715){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.131/){: .btn--research}
@@ -55,7 +55,7 @@ In *Proceedings of the 2024 Conference of the North American Chapter of the Asso
 
 ### MUBen: Benchmarking the Uncertainty of Molecular Representation Models
 **Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
-In *Transactions on Machine Learning Research*, 2024.
+In *TMLR*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/NIPS.2023.AI4Sci.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
@@ -75,7 +75,7 @@ In *The Journal of Physical Chemistry*, 2023
 
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
-In *Findings of the Association for Computational Linguistics: ACL 2023*, 2023.  
+In *Findings of the ACL*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2305.14549.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2305.14549){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}
@@ -87,7 +87,7 @@ In *Findings of the Association for Computational Linguistics: ACL 2023*, 2023.
 ---
 ### ReSel: N-ary Relation Extraction from Scientific Text and Tables by Learning to Retrieve and Select
 Yuchen Zhuang, **Yinghao Li**, Jerry Junyang Cheung, Yue Yu, Yingjun Mou, Xiang Chen, Le Song, Chao Zhang  
-In *Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing*, pages 730–744. 2022.  
+In *EMNLP*, 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2210.14427.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2210.14427){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>EMNLP](https://aclanthology.org/2022.emnlp-main.46/){: .btn--research}
@@ -96,7 +96,7 @@ In *Proceedings of the 2022 Conference on Empirical Methods in Natural Language 
 
 ### Sparse Conditional Hidden Markov Model for Weakly Supervised Named Entity Recognition
 **Yinghao Li**, Le Song, Chao Zhang  
-In *Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, Association for Computing Machinery, Washington DC, USA, 2022.  
+In *KDD*, 2022.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2205.14228.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2205.14228){: .btn--research}
 [<i class="ai-fw ai ai-acm"></i>ACM](https://dl.acm.org/doi/10.1145/3534678.3539247){: .btn--research}
@@ -109,7 +109,7 @@ In *Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Dis
 
 ### WRENCH: A Comprehensive Benchmark for Weak Supervision
 Jieyu Zhang, Yue Yu, **Yinghao Li**, Yujing Wang, Yaming Yang, Mao Yang, Alexander J. Ratner  
-In *Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)*, 2021.  
+In *NeurIPS Benchmark Track*, 2021.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2109.11377.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2109.11377){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=Q9SKS5k8io){: .btn--research}
@@ -119,7 +119,7 @@ In *Thirty-fifth Conference on Neural Information Processing Systems Datasets an
 
 ### BERTifying the Hidden Markov Model for Multi-Source Weakly Supervised Named Entity Recognition
 **Yinghao Li**, Pranav Shetty, Lucas Liu, Chao Zhang, Le Song  
-In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)*, pages 6178-6190, 2021.  
+In *ACL*, 2021.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://aclanthology.org/2021.acl-long.482.pdf){: .btn--research}
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/ACL.2021.bertifying.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2105.12848){: .btn--research}
@@ -140,7 +140,7 @@ In *IEEE Journal of Biomedical and Health Informatics*, vol. 25, no. 4, pp. 1031
 
 ### Denoising Multi-Source Weak Supervision for Neural Text Classification
 Wendi Ren, **Yinghao Li**, Hanting Su, David Kartchner, Cassie Mitchell, Chao Zhang  
-In *Findings of the Association for Computational Linguistics: EMNLP 2020*, pages 3739-3754, 2020.  
+In *Findings of EMNLP*, 2020.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://aclanthology.org/2020.findings-emnlp.334.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2010.04582){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2020.findings-emnlp.334){: .btn--research}
@@ -159,7 +159,7 @@ In *arXiv preprint arXiv:2010.01737*, 2020.
 
 ### STEAM: Self-Supervised Taxonomy Expansion with Mini-Paths
 Yue Yu, **Yinghao Li**, Jiaming Shen, Haoyang Feng, Jimeng Sun, Chao Zhang  
-In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, Association for Computing Machinery, New York, NY, USA, 1026-1035, 2020.  
+In *KDD*, 2020.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://dl.acm.org/doi/pdf/10.1145/3394486.3403145){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2006.10217){: .btn--research}
 [<i class="ai-fw ai ai-acm"></i>ACM](https://dl.acm.org/doi/abs/10.1145/3394486.3403145){: .btn--research}
