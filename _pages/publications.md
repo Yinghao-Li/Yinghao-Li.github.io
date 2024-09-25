@@ -37,7 +37,7 @@ In *COLM*, 2024.
 
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
-In *NAACL*, 2024.
+In *NAACL*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07387.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07387){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.4/){: .btn--research}
@@ -46,7 +46,7 @@ In *NAACL*, 2024.
 
 ### PolyIE: A Dataset of Information Extraction from Polymer Material Scientific Literature
 Jerry Junyang Cheung, Yuchen Zhuang, **Yinghao Li**, Pranav Shetty, Wantian Zhao, Sanjeev Grampurohit, Rampi Ramprasad, Chao Zhang  
-In *NAACL*, 2024.
+In *NAACL*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2311.07715.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2311.07715){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.naacl-long.131/){: .btn--research}
@@ -55,7 +55,7 @@ In *NAACL*, 2024.
 
 ### MUBen: Benchmarking the Uncertainty of Molecular Representation Models
 **Yinghao Li**, Lingkai Kong, Yuanqi Du, Yue Yu, Yuchen Zhuang, Wenhao Mu, Chao Zhang  
-In *TMLR*, 2024.
+In *TMLR*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2306.10060.pdf){: .btn--research}
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/NIPS.2023.AI4Sci.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2306.10060){: .btn--research}
