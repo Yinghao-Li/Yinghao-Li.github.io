@@ -10,26 +10,9 @@ redirect_from:
 
 {% include user_def %}
 
-**[My CV]({{base_path}}/files/CV-Yinghao.Li.pdf)**
-
-<!-- I'm a Ph.D. student majored in Machine Learning @ Georgia Institute of Technology, advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Prof. Le Song](https://www.linkedin.com/in/le-song-03223813/).
-
-My research interest covers
-- **Information Extraction**
-  - Effective and efficient way of fine-tuning and using large language models to retrieve structured information from free-formed documents [[G&O. 2024](https://arxiv.org/abs/2402.13364)];
-  - Using LLMs as pseudo dataset generator to supervise the training of smaller task-specific labelers such as BERT [[ProgGen. 2024](https://arxiv.org/abs/s2403.11103)];
-  - Weakly-supervised named entity recognision and text classificatio with multiple noisy labeling functions [[CHMM. 2021](https://arxiv.org/abs/2105.12848), [Sparse CHMM. 2022](https://arxiv.org/abs/2205.14228), [Wrench. 2021](https://arxiv.org/abs/2109.11377), [Ren et al. 2020](https://arxiv.org/abs/2010.04582)];
-  - HTML information extraction through Transformer-based DOM node classifier [[TrENC. 2023](https://arxiv.org/abs/2305.14549)];
-  - Rule-based molecular property extractor [[post]({{base_path}}/posts/2023/07/material-ie/), [Toland et al. 2023](https://pubs.acs.org/doi/10.1021/acs.jpca.3c05870#)].
-
-- **LLM Reasoning**
-  - Investigating the source of reasoning ability of LLM: is it intrinsic or a simple mimic of training data? [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)].
-
-- **Uncertainty Estimation**
-  - Benchmarking the uncertainty quantification methods for large molecular representation models on molecular property prediction [[MUBen. 2024](https://arxiv.org/abs/2306.10060)].
-
-- **Text Generation**
-  - Generate paraphrases under the syntactic guidance of constituency parsing tags [[GuiG. 2020](https://arxiv.org/abs/2010.01737)]. -->
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>CV]({{base_path}}/files/CV-Yinghao.Li.pdf){: .btn--research}
+[<i class="ai-fw ai ai-google-scholar" aria-hidden="true"></i>Google Scholar](https://scholar.google.com/citations?user=2WSooDIAAAAJ){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li){: .btn--research}
 
 I'm a Ph.D. student specializing in Machine Learning at the Georgia Institute of Technology, advised by [Dr. Chao Zhang](http://chaozhang.org/) and [Dr. Le Song](https://www.linkedin.com/in/le-song-03223813/). My research focuses on large language models (LLMs) and their applications in information extraction and reasoning, uncertainty estimation in molecular property prediction, and syntax-guided text generation.
 

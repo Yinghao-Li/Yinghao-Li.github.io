@@ -17,7 +17,7 @@ author_profile: true
 Yuzhao Heng, Chunyuan Deng, Yitong Li, Yue Yu, **Yinghao Li**, Rongzhi Zhang, Chao Zhang  
 In *Findings of ACL*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2403.11103.pdf){: .btn--research}
-[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/s2403.11103){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2403.11103){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.findings-acl.947/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/StefanHeng/ProgGen){: .btn--research}
 [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.proggen.bib){: .btn--research}
