@@ -35,6 +35,7 @@ In *Findings of EMNLP*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/EMNLP.2024.GnO.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2402.13364){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/GnO-IE){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.gno.bib){: .btn--research}
 
 ### TPD: Enhancing Student Language Model Reasoning via Principle Discovery and Guidance
 Haorui Wang, Rongzhi Zhang, **Yinghao Li**, Lingkai Kong, Yuchen Zhuang, Xiusi Chen, Chao Zhang  
@@ -42,6 +43,7 @@ In *COLM*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=sJvhwDtFhQ){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.tpd.bib){: .btn--research}
 
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
