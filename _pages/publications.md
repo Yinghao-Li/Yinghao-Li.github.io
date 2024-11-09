@@ -14,8 +14,8 @@ author_profile: true
 ---
 
 ### Ensembles of Low-Rank Expert Adapters
-Yinghao Li, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani
-Submission of *ICLR*, 2025
+Yinghao Li, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani  
+Submission of *ICLR*, 2025  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://openreview.net/pdf?id=l0gZS0sAlf){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=l0gZS0sAlf){: .btn--research}
 
@@ -32,6 +32,7 @@ In *Findings of ACL*, 2024.
 **Yinghao Li**, Rampi Ramprasad, Chao Zhang  
 In *Findings of EMNLP*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2402.13364.pdf){: .btn--research}
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/EMNLP.2024.GnO.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2402.13364){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/GnO-IE){: .btn--research}
 
@@ -40,6 +41,7 @@ Haorui Wang, Rongzhi Zhang, **Yinghao Li**, Lingkai Kong, Yuchen Zhuang, Xiusi C
 In *COLM*, 2024.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=sJvhwDtFhQ){: .btn--research}
 
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
