@@ -21,9 +21,10 @@ Research Interests
 
 ### Large Language Models
 
-- Fine-tuning LLMs for structured information retrieval
+- LLM low-rank adapter ensembling
+  - Improves large language model’s (LLM’s) performance on diverse tasks through an Expert Ensembles framework, which clusters training data according to gradient profiles to reduce update conflicts and aggregates expert models’ predictions according to their relevance to the input [[ELREA. 2024](https://openreview.net/forum?id=l0gZS0sAlf)].
+- LLMs for information retrieval
   - Developing effective and efficient methods to fine-tune and utilize LLMs for extracting structured information from unstructured documents [[G&O. 2024](https://arxiv.org/abs/2402.13364)].
-- LLMs as pseudo dataset generators
   - Leveraging LLMs to generate pseudo datasets to supervise the training of smaller, task-specific models like BERT [[ProgGen. 2024](https://arxiv.org/abs/2403.11103)].
 - Investigating the source of LLM reasoning abilities
   - Exploring whether the reasoning capabilities of LLMs are intrinsic or a mimicry of training data patterns [[Minesweeper. 2023](https://arxiv.org/abs/2311.07387)].
@@ -40,7 +41,7 @@ Research Interests
 - Benchmarking uncertainty quantification methods
   - Evaluating uncertainty quantification techniques for large molecular representation models in molecular property prediction [[MUBen. 2024](https://arxiv.org/abs/2306.10060)].
 
-### [Text Generation]
+### Text Generation
 
 - Syntax-guided paraphrase generation
   - Generating paraphrases under syntactic guidance using constituency parsing tags to enhance text diversity and quality [[GuiG. 2020](https://arxiv.org/abs/2010.01737)].
