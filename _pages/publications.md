@@ -10,14 +10,19 @@ author_profile: true
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-2024
+2025
 ---
 
 ### Ensembles of Low-Rank Expert Adapters
 Yinghao Li, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani  
-Submission of *ICLR*, 2025  
+In *ICLR*, 2025  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://openreview.net/pdf?id=l0gZS0sAlf){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2502.00089){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=l0gZS0sAlf){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025.elrea.bib){: .btn--research}
+
+2024
+---
 
 ### ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models
 Yuzhao Heng, Chunyuan Deng, Yitong Li, Yue Yu, **Yinghao Li**, Rongzhi Zhang, Chao Zhang  
