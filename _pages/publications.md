@@ -13,8 +13,16 @@ author_profile: true
 2025
 ---
 
+### Language Model Uncertainty Quantification with Attention Chain
+**Yinghao Li**, Rushi Qiang, Lama Moukheiber, Chao Zhang  
+In *arXiv*, 2025  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2503.19168){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2503.19168){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UQAC){: .btn--research}
+
+
 ### Ensembles of Low-Rank Expert Adapters
-Yinghao Li, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani  
+**Yinghao Li**, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani  
 In *ICLR*, 2025  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://openreview.net/pdf?id=l0gZS0sAlf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2502.00089){: .btn--research}
@@ -90,7 +98,7 @@ In *The Journal of Physical Chemistry*, 2023
 
 ### Extracting Shopping Interest-Related Product Types from the Web
 **Yinghao Li**, Colin Lockard, Prashant Shiralkar, Chao Zhang  
-In *Findings of the ACL*, 2023.  
+In *Findings of ACL*, 2023.  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2305.14549.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2305.14549){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2023.findings-acl.474/){: .btn--research}
