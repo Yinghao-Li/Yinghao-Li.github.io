@@ -13,6 +13,12 @@ author_profile: true
 2025
 ---
 
+### Uncertainty-Aware and Data-Efficient Fine-Tuning and Application of Foundation Models
+**Yinghao Li**  
+2025  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Thesis]({{ base_path }}/files/Thesis-Yinghao.Li.pdf){: .btn--research}
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Presentation Slides]({{ base_path }}/files/Defense-Presentation-Yinghao.Li.pdf){: .btn--research}
+
 ### Language Model Uncertainty Quantification with Attention Chain
 **Yinghao Li**, Rushi Qiang, Lama Moukheiber, Chao Zhang  
 In *arXiv*, 2025  
