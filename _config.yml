@@ -83,19 +83,19 @@ author:
   name             : "Yinghao Li 李英昊"
   avatar           : "profile.jpg"
   bio              : "Ph.D. student @ Georgia Tech"
-  location         : "Atlanta, GA"
+  location         : "New York, NY"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=2WSooDIAAAAJ"
-  semanticscholar  : "https://www.semanticscholar.org/author/1527089853"
-  email            : "yinghaoli@gatech.edu"
+  semanticscholar  :  # "https://www.semanticscholar.org/author/1527089853"
+  email            : "li.ying.hao@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "yinghao.li.7927"
+  facebook         : # "yinghao.li.7927"
   foursquare       :
   github           : "Yinghao-Li"
   pypi             : "Yinghao-Li"
