@@ -13,6 +13,14 @@ author_profile: true
 2025
 ---
 
+### MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering
+Rushi Qiang, Yuchen Zhuang, **Yinghao Li**, Dingu Sagar V K, Rongzhi Zhang, ChangHao Li, Ian Shu-Hei Wong, Sherry Yang, Percy Liang, Chao Zhang, Bo Dai  
+In *arXiv*, 2025  
+[<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2505.07782){: .btn--research}
+[<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2505.07782){: .btn--research}
+[<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/MLE-Dojo/MLE-Dojo){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025-mledojo.bib){: .btn--research}
+
 ### Uncertainty-Aware and Data-Efficient Fine-Tuning and Application of Foundation Models
 **Yinghao Li**  
 2025  
@@ -21,11 +29,12 @@ author_profile: true
 
 ### Language Model Uncertainty Quantification with Attention Chain
 **Yinghao Li**, Rushi Qiang, Lama Moukheiber, Chao Zhang  
-In *arXiv*, 2025  
+In *COLM*, 2025  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2503.19168){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2503.19168){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=QTrW2HWNXe){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/UQAC){: .btn--research}
-
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025-uqac.bib){: .btn--research}
 
 ### Ensembles of Low-Rank Expert Adapters
 **Yinghao Li**, Vianne R. Gao, Chao Zhang, MohamadAli Torkamani  
@@ -33,7 +42,7 @@ In *ICLR*, 2025
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://openreview.net/pdf?id=l0gZS0sAlf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2502.00089){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=l0gZS0sAlf){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025.elrea.bib){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025-elrea.bib){: .btn--research}
 
 2024
 ---
@@ -45,7 +54,7 @@ In *Findings of ACL*, 2024.
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2403.11103){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>ACL](https://aclanthology.org/2024.findings-acl.947/){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/StefanHeng/ProgGen){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.proggen.bib){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024-proggen.bib){: .btn--research}
 
 ### A Simple but Effective Approach to Improve Structured Language Model Output for Information Extraction
 **Yinghao Li**, Rampi Ramprasad, Chao Zhang  
@@ -54,7 +63,7 @@ In *Findings of EMNLP*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Poster]({{ base_path }}/files/EMNLP.2024.GnO.poster.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2402.13364){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/Yinghao-Li/GnO-IE){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.gno.bib){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024-gno.bib){: .btn--research}
 
 ### TPD: Enhancing Student Language Model Reasoning via Principle Discovery and Guidance
 Haorui Wang, Rongzhi Zhang, **Yinghao Li**, Lingkai Kong, Yuchen Zhuang, Xiusi Chen, Chao Zhang  
@@ -62,7 +71,7 @@ In *COLM*, 2024.
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2401.13849.pdf){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2401.13849){: .btn--research}
 [<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=sJvhwDtFhQ){: .btn--research}
-[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024.tpd.bib){: .btn--research}
+[<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2024-tpd.bib){: .btn--research}
 
 ### Assessing Logical Puzzle Solving in Large Language Models: Insights from a Minesweeper Case Study
 **Yinghao Li**, Haorui Wang, Chao Zhang  
