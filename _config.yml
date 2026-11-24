@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Website No.0"
 title_separator          : "-"
 name                     : &name "Yinghao Li"
-description              : &description "Ph.D. student @ Georgia Tech"
+description              : &description "Applied Scientist @ AWS"
 url                      : https://yinghao-li.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Yinghao-Li/Yinghao-Li.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yinghao Li 李英昊"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. student @ Georgia Tech"
+  bio              : "Applied Scientist @ AWS"
   location         : "New York, NY"
   employer         :
   pubmed           :

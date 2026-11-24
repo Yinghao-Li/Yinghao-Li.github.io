@@ -15,9 +15,11 @@ author_profile: true
 
 ### MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering
 Rushi Qiang, Yuchen Zhuang, **Yinghao Li**, Dingu Sagar V K, Rongzhi Zhang, ChangHao Li, Ian Shu-Hei Wong, Sherry Yang, Percy Liang, Chao Zhang, Bo Dai  
-In *arXiv*, 2025  
+In *NeurIPS*, 2025  
 [<i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF](https://arxiv.org/pdf/2505.07782){: .btn--research}
 [<i class="ai-fw ai ai-arxiv"></i>arXiv](https://arxiv.org/abs/2505.07782){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>OpenReview](https://openreview.net/forum?id=5W5mFU4oMO){: .btn--research}
+[<i class="fas fa-fw fa-link" aria-hidden="true"></i>NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0603c69125ad4b964bc9c4832f7b9f8f-Abstract-Datasets_and_Benchmarks_Track.html){: .btn--research}
 [<i class="fab fa-fw fa-github"></i>GitHub](https://github.com/MLE-Dojo/MLE-Dojo){: .btn--research}
 [<i class="fas fa-fw fa-file"></i>BibTeX]({{ base_path }}/bibtex/2025-mledojo.bib){: .btn--research}
 

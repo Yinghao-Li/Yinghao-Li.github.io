@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-I serve as teaching assistant for the following courses:
+I served as a teaching assistant for the following courses at Georgia Tech:
 
 ### Georgia Tech Big Data Analytics BootCamp  
 *Spring 2020; 2021; 2022; 2023; 2024*  
